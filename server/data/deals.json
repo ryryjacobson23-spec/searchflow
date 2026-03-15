@@ -1,0 +1,221 @@
+[
+  {
+    "id": "deal-001",
+    "companyName": "Apex HVAC Solutions",
+    "industry": "HVAC Services",
+    "stage": "Sourced",
+    "location": "Nashville, TN",
+    "annualRevenue": 2400000,
+    "ebitda": 480000,
+    "askingPrice": 2400000,
+    "description": "Residential and commercial HVAC service company with 12 service vans and strong recurring maintenance contracts. Founded in 2008, strong reputation in the Nashville metro area. Owner-operated with a team of 18 technicians.",
+    "notes": [
+      {
+        "id": "note-001",
+        "content": "Found through Sunbelt Business Brokers listing. Seller is 61 and looking for a retirement exit. Maintenance contract base covers ~40% of annual revenue with high renewal rates.",
+        "timestamp": "2024-01-15T09:30:00.000Z"
+      }
+    ],
+    "createdAt": "2024-01-15T09:00:00.000Z",
+    "updatedAt": "2024-01-15T09:30:00.000Z"
+  },
+  {
+    "id": "deal-002",
+    "companyName": "GreenScape Pro",
+    "industry": "Landscaping",
+    "stage": "Contacted",
+    "location": "Austin, TX",
+    "annualRevenue": 1800000,
+    "ebitda": 324000,
+    "askingPrice": 1620000,
+    "description": "Commercial and residential landscaping company serving 200+ regular customers. Services include lawn care, irrigation system installation, and seasonal planting. Fleet of 8 trucks with GPS tracking.",
+    "notes": [
+      {
+        "id": "note-002",
+        "content": "Initial call with owner (Mark Hendricks) went well. Motivated seller — wants to close within 6 months due to a planned move to Costa Rica. Revenue is 70/30 commercial/residential split. Sent initial NDA for review.",
+        "timestamp": "2024-01-22T14:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-01-18T10:00:00.000Z",
+    "updatedAt": "2024-01-22T14:00:00.000Z"
+  },
+  {
+    "id": "deal-003",
+    "companyName": "MedBilling Partners",
+    "industry": "Medical Billing",
+    "stage": "NDA Signed",
+    "location": "Phoenix, AZ",
+    "annualRevenue": 3200000,
+    "ebitda": 736000,
+    "askingPrice": 3680000,
+    "description": "Specialized medical billing and coding company serving 45 physician practices across Arizona. Primarily focused on orthopedics and cardiology billing. Certified medical coders on staff. HIPAA-compliant infrastructure.",
+    "notes": [
+      {
+        "id": "note-003",
+        "content": "NDA signed February 3rd. CIM expected within 10 business days. Owner mentioned 3 key billing managers likely to stay post-acquisition — should verify with employment agreements.",
+        "timestamp": "2024-02-05T11:15:00.000Z"
+      },
+      {
+        "id": "note-004",
+        "content": "Received CIM. Revenue is 92% recurring from long-term contracts averaging 3-year terms. Client churn has been under 5% annually for 4 years. Very sticky customer base. Will request 3 years of tax returns.",
+        "timestamp": "2024-02-10T16:30:00.000Z"
+      }
+    ],
+    "createdAt": "2024-01-28T09:00:00.000Z",
+    "updatedAt": "2024-02-10T16:30:00.000Z"
+  },
+  {
+    "id": "deal-004",
+    "companyName": "TechGuard MSP",
+    "industry": "IT Managed Services",
+    "stage": "LOI Submitted",
+    "location": "Denver, CO",
+    "annualRevenue": 4100000,
+    "ebitda": 820000,
+    "askingPrice": 4100000,
+    "description": "Managed IT services provider with 85 SMB clients on recurring monthly contracts (MRR ~$290K). Services include helpdesk, cybersecurity monitoring, cloud management, and network infrastructure. CompTIA and Microsoft-certified team.",
+    "notes": [
+      {
+        "id": "note-005",
+        "content": "Strong business fundamentals. 94% client retention rate over past 3 years. Owner willing to stay on for 12-month transition. Two key engineers have indicated they want to stay long-term.",
+        "timestamp": "2024-02-14T10:00:00.000Z"
+      },
+      {
+        "id": "note-006",
+        "content": "LOI submitted at 5.0x EBITDA ($4.1M). Seller countered at 5.25x ($4.3M). Scheduled follow-up call Monday to negotiate. May be willing to split the difference at 5.1x.",
+        "timestamp": "2024-02-20T15:45:00.000Z"
+      },
+      {
+        "id": "note-007",
+        "content": "Agreed on $4.1M (5x). LOI executed. QoE firm (Grant Thornton) engaged. Estimated 6-week diligence period.",
+        "timestamp": "2024-02-28T09:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-02-01T09:00:00.000Z",
+    "updatedAt": "2024-02-28T09:00:00.000Z"
+  },
+  {
+    "id": "deal-005",
+    "companyName": "Premier Plumbing Co.",
+    "industry": "Plumbing Services",
+    "stage": "Under Diligence",
+    "location": "Charlotte, NC",
+    "annualRevenue": 2100000,
+    "ebitda": 420000,
+    "askingPrice": 2100000,
+    "description": "Full-service plumbing contractor with residential and light commercial focus. 8 licensed plumbers, strong repeat customer base, and 4.8-star Google rating with 340+ reviews. Service area covers Charlotte metro and 4 surrounding counties.",
+    "notes": [
+      {
+        "id": "note-008",
+        "content": "LOI accepted at 5x EBITDA ($2.1M). QoE engagement started with Riveria & Associates on Feb 25.",
+        "timestamp": "2024-02-25T09:00:00.000Z"
+      },
+      {
+        "id": "note-009",
+        "content": "QoE complete. Adjusted EBITDA confirmed at $418K (minor add-backs for owner's personal car and phone). Clean books — no major surprises. Moving to legal diligence and environmental review.",
+        "timestamp": "2024-03-08T14:00:00.000Z"
+      },
+      {
+        "id": "note-010",
+        "content": "Legal review underway. Two commercial customer contracts have automatic termination clauses on change of control. Need to obtain written consents from those customers before closing. SBA lender (Live Oak Bank) pre-approved the loan.",
+        "timestamp": "2024-03-12T11:30:00.000Z"
+      }
+    ],
+    "createdAt": "2024-02-15T09:00:00.000Z",
+    "updatedAt": "2024-03-12T11:30:00.000Z"
+  },
+  {
+    "id": "deal-006",
+    "companyName": "SparkClean Commercial",
+    "industry": "Commercial Cleaning",
+    "stage": "Sourced",
+    "location": "Atlanta, GA",
+    "annualRevenue": 1500000,
+    "ebitda": 270000,
+    "askingPrice": 1350000,
+    "description": "Commercial janitorial and cleaning services company with 35 active accounts including Class-A offices, medical facilities, and retail stores. Team of 42 part-time and full-time cleaners. Operates primarily in the I-285 corridor.",
+    "notes": [],
+    "createdAt": "2024-03-01T09:00:00.000Z",
+    "updatedAt": "2024-03-01T09:00:00.000Z"
+  },
+  {
+    "id": "deal-007",
+    "companyName": "PestAway Services",
+    "industry": "Pest Control",
+    "stage": "Contacted",
+    "location": "Tampa, FL",
+    "annualRevenue": 1200000,
+    "ebitda": 252000,
+    "askingPrice": 1260000,
+    "description": "Residential and commercial pest control company with strong route density in the Tampa Bay area. 800+ active customers, majority on annual service contracts. Licensed for general pest, termite, and rodent control in Florida.",
+    "notes": [
+      {
+        "id": "note-011",
+        "content": "Owner is 68 years old, looking to exit ASAP. Mentioned there are 2 other potential buyers already circling — need to move quickly on NDA and initial due diligence. Referral from Bayshore Capital broker.",
+        "timestamp": "2024-03-05T13:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-03-03T09:00:00.000Z",
+    "updatedAt": "2024-03-05T13:00:00.000Z"
+  },
+  {
+    "id": "deal-008",
+    "companyName": "AutoCare Network",
+    "industry": "Auto Repair",
+    "stage": "NDA Signed",
+    "location": "Minneapolis, MN",
+    "annualRevenue": 5800000,
+    "ebitda": 870000,
+    "askingPrice": 4350000,
+    "description": "Three-location auto repair chain specializing in domestic and import vehicles. Includes full mechanical, electrical, and body shop services at the flagship Maple Grove location. 22 full-time technicians, all ASE-certified.",
+    "notes": [
+      {
+        "id": "note-012",
+        "content": "NDA signed Feb 28. Preliminary 2023 financials show strong performance. Third location (Edina) only opened 18 months ago and is still ramping — normalized EBITDA could be $950K+ once fully mature. Requesting full CIM and 3 years P&Ls.",
+        "timestamp": "2024-02-28T10:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-02-20T09:00:00.000Z",
+    "updatedAt": "2024-02-28T10:00:00.000Z"
+  },
+  {
+    "id": "deal-009",
+    "companyName": "Summit Property Mgmt",
+    "industry": "Property Management",
+    "stage": "LOI Submitted",
+    "location": "Salt Lake City, UT",
+    "annualRevenue": 2900000,
+    "ebitda": 580000,
+    "askingPrice": 2900000,
+    "description": "Residential property management company managing 650 single-family and small multi-family units across the Salt Lake Valley. Fee-based model (8-10% of rent). Strong landlord retention with average client tenure of 6+ years.",
+    "notes": [
+      {
+        "id": "note-013",
+        "content": "LOI submitted at 5.0x ($2.9M). Seller indicated openness to seller financing for 15-20% of purchase price at 6% over 5 years, which would meaningfully reduce SBA loan size. Waiting for LOI acceptance.",
+        "timestamp": "2024-03-10T09:30:00.000Z"
+      }
+    ],
+    "createdAt": "2024-03-01T09:00:00.000Z",
+    "updatedAt": "2024-03-10T09:30:00.000Z"
+  },
+  {
+    "id": "deal-010",
+    "companyName": "DataFlow Systems",
+    "industry": "IT Consulting",
+    "stage": "Closed",
+    "location": "Raleigh, NC",
+    "annualRevenue": 3500000,
+    "ebitda": 630000,
+    "askingPrice": 3150000,
+    "description": "IT consulting and systems integration firm serving mid-market companies in the Southeast. Specializes in ERP implementations (NetSuite, Sage 300) and cloud migrations to AWS and Azure. 12 full-time consultants with strong client relationships.",
+    "notes": [
+      {
+        "id": "note-014",
+        "content": "CLOSED! Deal closed March 14 at $3.15M (5.0x EBITDA). Capital structure: 70% SBA 7(a) loan (Live Oak Bank), 10% seller note (5 years, 6%), 20% equity. Owner staying on as a consultant for 18 months. Transition going smoothly — team is energized.",
+        "timestamp": "2024-03-14T16:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-01-05T09:00:00.000Z",
+    "updatedAt": "2024-03-14T16:00:00.000Z"
+  }
+]
