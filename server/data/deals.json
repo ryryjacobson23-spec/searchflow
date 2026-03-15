@@ -9,6 +9,15 @@
     "ebitda": 480000,
     "askingPrice": 2400000,
     "description": "Residential and commercial HVAC service company with 12 service vans and strong recurring maintenance contracts. Founded in 2008, strong reputation in the Nashville metro area. Owner-operated with a team of 18 technicians.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [1920000, 2150000, 2400000],
+      "ebitda": [345600, 411800, 480000],
+      "grossMargin": 62,
+      "customerConcentration": 12,
+      "recurringRevenue": 42,
+      "askingPrice": 2400000
+    },
     "notes": [
       {
         "id": "note-001",
@@ -29,6 +38,15 @@
     "ebitda": 324000,
     "askingPrice": 1620000,
     "description": "Commercial and residential landscaping company serving 200+ regular customers. Services include lawn care, irrigation system installation, and seasonal planting. Fleet of 8 trucks with GPS tracking.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [1380000, 1590000, 1800000],
+      "ebitda": [228000, 271200, 324000],
+      "grossMargin": 48,
+      "customerConcentration": 22,
+      "recurringRevenue": 65,
+      "askingPrice": 1620000
+    },
     "notes": [
       {
         "id": "note-002",
@@ -49,6 +67,15 @@
     "ebitda": 736000,
     "askingPrice": 3680000,
     "description": "Specialized medical billing and coding company serving 45 physician practices across Arizona. Primarily focused on orthopedics and cardiology billing. Certified medical coders on staff. HIPAA-compliant infrastructure.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [2480000, 2890000, 3200000],
+      "ebitda": [537600, 641200, 736000],
+      "grossMargin": 71,
+      "customerConcentration": 8,
+      "recurringRevenue": 92,
+      "askingPrice": 3680000
+    },
     "notes": [
       {
         "id": "note-003",
@@ -74,6 +101,15 @@
     "ebitda": 820000,
     "askingPrice": 4100000,
     "description": "Managed IT services provider with 85 SMB clients on recurring monthly contracts (MRR ~$290K). Services include helpdesk, cybersecurity monitoring, cloud management, and network infrastructure. CompTIA and Microsoft-certified team.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [2950000, 3580000, 4100000],
+      "ebitda": [571800, 698400, 820000],
+      "grossMargin": 68,
+      "customerConcentration": 6,
+      "recurringRevenue": 94,
+      "askingPrice": 4100000
+    },
     "notes": [
       {
         "id": "note-005",
@@ -104,6 +140,15 @@
     "ebitda": 420000,
     "askingPrice": 2100000,
     "description": "Full-service plumbing contractor with residential and light commercial focus. 8 licensed plumbers, strong repeat customer base, and 4.8-star Google rating with 340+ reviews. Service area covers Charlotte metro and 4 surrounding counties.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [1720000, 1910000, 2100000],
+      "ebitda": [308000, 358000, 420000],
+      "grossMargin": 55,
+      "customerConcentration": 15,
+      "recurringRevenue": 35,
+      "askingPrice": 2100000
+    },
     "notes": [
       {
         "id": "note-008",
@@ -134,6 +179,15 @@
     "ebitda": 270000,
     "askingPrice": 1350000,
     "description": "Commercial janitorial and cleaning services company with 35 active accounts including Class-A offices, medical facilities, and retail stores. Team of 42 part-time and full-time cleaners. Operates primarily in the I-285 corridor.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [1180000, 1340000, 1500000],
+      "ebitda": [188800, 228200, 270000],
+      "grossMargin": 44,
+      "customerConcentration": 28,
+      "recurringRevenue": 82,
+      "askingPrice": 1350000
+    },
     "notes": [],
     "createdAt": "2024-03-01T09:00:00.000Z",
     "updatedAt": "2024-03-01T09:00:00.000Z"
@@ -148,6 +202,15 @@
     "ebitda": 252000,
     "askingPrice": 1260000,
     "description": "Residential and commercial pest control company with strong route density in the Tampa Bay area. 800+ active customers, majority on annual service contracts. Licensed for general pest, termite, and rodent control in Florida.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [962000, 1082000, 1200000],
+      "ebitda": [192400, 217400, 252000],
+      "grossMargin": 58,
+      "customerConcentration": 5,
+      "recurringRevenue": 78,
+      "askingPrice": 1260000
+    },
     "notes": [
       {
         "id": "note-011",
@@ -168,6 +231,15 @@
     "ebitda": 870000,
     "askingPrice": 4350000,
     "description": "Three-location auto repair chain specializing in domestic and import vehicles. Includes full mechanical, electrical, and body shop services at the flagship Maple Grove location. 22 full-time technicians, all ASE-certified.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [3820000, 4740000, 5800000],
+      "ebitda": [527600, 693600, 870000],
+      "grossMargin": 52,
+      "customerConcentration": 3,
+      "recurringRevenue": 28,
+      "askingPrice": 4350000
+    },
     "notes": [
       {
         "id": "note-012",
@@ -188,6 +260,15 @@
     "ebitda": 580000,
     "askingPrice": 2900000,
     "description": "Residential property management company managing 650 single-family and small multi-family units across the Salt Lake Valley. Fee-based model (8-10% of rent). Strong landlord retention with average client tenure of 6+ years.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [2180000, 2540000, 2900000],
+      "ebitda": [415600, 493100, 580000],
+      "grossMargin": 65,
+      "customerConcentration": 4,
+      "recurringRevenue": 96,
+      "askingPrice": 2900000
+    },
     "notes": [
       {
         "id": "note-013",
@@ -208,6 +289,15 @@
     "ebitda": 630000,
     "askingPrice": 3150000,
     "description": "IT consulting and systems integration firm serving mid-market companies in the Southeast. Specializes in ERP implementations (NetSuite, Sage 300) and cloud migrations to AWS and Azure. 12 full-time consultants with strong client relationships.",
+    "screening": {
+      "years": [2021, 2022, 2023],
+      "revenue": [2580000, 3010000, 3500000],
+      "ebitda": [451500, 541800, 630000],
+      "grossMargin": 58,
+      "customerConcentration": 19,
+      "recurringRevenue": 55,
+      "askingPrice": 3150000
+    },
     "notes": [
       {
         "id": "note-014",
