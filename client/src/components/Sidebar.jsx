@@ -2,12 +2,12 @@ import { LayoutDashboard, TrendingUp, Settings, ChevronRight, Briefcase } from '
 import { formatCurrency } from '../utils';
 
 const NAV_ITEMS = [
-  { icon: LayoutDashboard, label: 'Pipeline', active: true },
-  { icon: TrendingUp, label: 'Analytics', active: false, soon: true },
-  { icon: Settings, label: 'Settings', active: false, soon: true },
+  { id: 'pipeline',   icon: LayoutDashboard, label: 'Pipeline' },
+  { id: 'analytics',  icon: TrendingUp,      label: 'Analytics' },
+  { id: 'settings',   icon: Settings,        label: 'Settings', soon: true },
 ];
 
-export default function Sidebar({ dealCount, pipelineValue, closedCount, onAddDeal }) {
+export default function Sidebar({ dealCount, pipelineValue, closedCount, onAddDeal, currentPage, onNavigate }) {
   return (
     <aside className="w-60 flex-shrink-0 bg-slate-900 flex flex-col h-full">
       {/* Brand */}
@@ -25,27 +25,41 @@ export default function Sidebar({ dealCount, pipelineValue, closedCount, onAddDe
 
       {/* Navigation */}
       <nav className="flex-1 px-3 py-4 space-y-1">
-        {NAV_ITEMS.map(({ icon: Icon, label, active, soon }) => (
-          <button
-            key={label}
-            className={`w-full flex items-center justify-between gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors group ${
-              active
-                ? 'bg-slate-800 text-white'
-                : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
-            }`}
-          >
-            <div className="flex items-center gap-3">
-              <Icon size={16} className={active ? 'text-blue-400' : 'text-slate-500 group-hover:text-slate-400'} />
-              {label}
-            </div>
-            {soon && (
-              <span className="text-[10px] font-medium bg-slate-700 text-slate-400 px-1.5 py-0.5 rounded">
-                Soon
-              </span>
-            )}
-            {active && <ChevronRight size={14} className="text-slate-600" />}
-          </button>
-        ))}
+        {NAV_ITEMS.map(({ id, icon: Icon, label, soon }) => {
+          const active = currentPage === id;
+          return (
+            <button
+              key={id}
+              onClick={() => !soon && onNavigate(id)}
+              disabled={soon}
+              className={`w-full flex items-center justify-between gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors group ${
+                active
+                  ? 'bg-slate-800 text-white'
+                  : soon
+                  ? 'text-slate-600 cursor-default'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+              }`}
+            >
+              <div className="flex items-center gap-3">
+                <Icon
+                  size={16}
+                  className={
+                    active ? 'text-blue-400'
+                    : soon  ? 'text-slate-600'
+                    : 'text-slate-500 group-hover:text-slate-400'
+                  }
+                />
+                {label}
+              </div>
+              {soon && (
+                <span className="text-[10px] font-medium bg-slate-700 text-slate-400 px-1.5 py-0.5 rounded">
+                  Soon
+                </span>
+              )}
+              {active && <ChevronRight size={14} className="text-slate-600" />}
+            </button>
+          );
+        })}
       </nav>
 
       {/* Stats */}
