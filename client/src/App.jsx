@@ -4,6 +4,7 @@ import KanbanBoard from './components/KanbanBoard';
 import DealDetailPanel from './components/DealDetailPanel';
 import AddDealModal from './components/AddDealModal';
 import AnalyticsPage from './components/AnalyticsPage';
+import AcquisitionDashboard from './components/AcquisitionDashboard';
 import FilterBar from './components/FilterBar';
 import { STAGES } from './constants';
 import { formatCurrency } from './utils';
@@ -207,6 +208,11 @@ export default function App() {
               )}
             </main>
           </>
+        )}
+
+        {/* ── Targets page ──────────────────────────────────────────── */}
+        {currentPage === 'targets' && (
+          <AcquisitionDashboard />
         )}
 
         {/* ── Analytics page ─────────────────────────────────────────── */}
