@@ -1,8 +1,9 @@
-import { LayoutDashboard, TrendingUp, Settings, ChevronRight, Briefcase } from 'lucide-react';
+import { LayoutDashboard, TrendingUp, Settings, ChevronRight, Briefcase, Target } from 'lucide-react';
 import { formatCurrency } from '../utils';
 
 const NAV_ITEMS = [
   { id: 'pipeline',   icon: LayoutDashboard, label: 'Pipeline' },
+  { id: 'targets',    icon: Target,          label: 'Targets' },
   { id: 'analytics',  icon: TrendingUp,      label: 'Analytics' },
   { id: 'settings',   icon: Settings,        label: 'Settings', soon: true },
 ];
